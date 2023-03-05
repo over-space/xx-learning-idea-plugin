@@ -19,6 +19,10 @@ intellij {
     plugins.set(listOf(/* Plugin Dependencies */))
 }
 
+dependencies{
+    implementation("com.atlassian.commonmark:commonmark-ext-gfm-tables:0.17.0")
+}
+
 tasks {
     // Set the JVM compatibility versions
     withType<JavaCompile> {
