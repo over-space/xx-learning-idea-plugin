@@ -8,7 +8,7 @@
     <name>xx-learning-idea-plugin</name>
 
     <!-- A displayed Vendor name or Organization ID displayed on the Plugins Page. -->
-    <vendor email="xxplus@outlook.com" url="https://www.yourcompany.com">YourCompany</vendor>
+    <vendor email="xxplus@outlook.com" url="https://github.com/over-space">Lee</vendor>
 
     <!-- Description of the plugin displayed on the Plugin Page and IDE Plugin Manager.
          Simple HTML elements (text formatting, paragraphs, and lists) can be added inside of <![CDATA[ ]]> tag.
@@ -26,13 +26,8 @@
          Read more: https://plugins.jetbrains.com/docs/intellij/plugin-extension-points.html -->
     <extensions defaultExtensionNs="com.intellij">
 
-        <!-- 配置 File -> Settings -> Tools -->
-<!--        <projectConfigurable groupId="tools" displayName="LearningPlugin" id="test.id"-->
-<!--                             instance="com.learning.plugin.SettingFactory"/>-->
-
         <!-- 窗体 (IDEA 界面右侧) -->
-        <toolWindow id="Learning" secondary="false" anchor="right" icon="/icons/logo.png"
-                    factoryClass="com.learning.plugin.ReadFactory"/>
+        <toolWindow id="Learning" secondary="false" anchor="right" icon="/icons/learning16.png" factoryClass="com.learning.plugin.ReadFactory"/>
 
     </extensions>
 </idea-plugin>
